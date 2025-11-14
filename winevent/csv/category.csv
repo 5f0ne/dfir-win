@@ -1,0 +1,21 @@
+Name,Description
+execution,Execution of programs
+pwsh,PowerShell
+service,WinService related
+netshare,Network Share related
+ad,Active Directory related
+logclear,log cleared
+user,Windows Account related
+group,Windows Group related
+rdp,RDP related
+sysmon,Sysmon related
+schedtask,ScheduledTask related
+smb,SMB related
+error,Error related
+antivir,Antivirus related
+wmi,WMI related
+winrm,WinRM related
+auth,User authentication related
+reg,Windows Registry related
+access,File Registry access related
+perm, Permission related

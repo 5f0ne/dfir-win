@@ -1,0 +1,3 @@
+Name,Description
+all,Event is located on any system with Windows OS
+dc, Event is located on Domain controllers only
