@@ -18,4 +18,6 @@ winrm,WinRM related
 auth,User authentication related
 reg,Windows Registry related
 access,File Registry access related
-perm, Permission related
+perm,Permission related
+time,Time related
+fw,Firewall related
