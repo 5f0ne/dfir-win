@@ -1,0 +1,10 @@
+Artifact,Type,Description
+appcompatcache,Location,SYSTEM\CurrentControlSet\Control\SessionManager\AppCompatCache\AppCompatCache
+appcompatcache,Usage,Checks if the given file needs additional properties to run on current system
+appcompatcache,Executables,Executables are added regardless of if they are need additional properties to run
+appcompatcache,Entries,1024 - Old ones will be deleted
+appcompatcache,Values,Last modification timestamp and path of file
+appcompatcache,MoveOrRename,If file is moved or renamed a new entry is generated in appcompatcache
+appcompatcache,TSManipulation,Manipulation likely if file`s modification timestamp not equal appcompatcache modified timestamp
+appcompatcache,WriteTime,New entries are only written on shutdown
+appcompatcache,NoEoE,Do not use AppCompatCache entries as evidence of execution - more as evidence of existence on the system based on file name - No hash available for executable here

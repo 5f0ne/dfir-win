@@ -1,0 +1,7 @@
+Artifact,Type,Description
+amcache,Location,C:Windows\AppCompat\Programs\Amcache.hve
+amcache,Usage,Different system information and data - Installations / Drivers / Shortcuts
+amcache,Values,File Path/Size/Modification Timestamp/Compile Time - Publisher
+amcache,HashValue,SHA1 Hash of the executable/driver - but only limited to ca 31MB files
+amcache,Analysis,Keys of interest: InventoryApplication - InventoryApplicationFile - InventoryDriverBinary/Package - InventoryApplicationShortcut
+amcache,NoEoE,Do not use as evidence of execution - more as evidence of existence based on SHA1 hash

@@ -1,0 +1,12 @@
+LogonType,Name,Description
+2,Interactive,"A user logged on at the computer's console or through Remote Desktop with local credentials."
+3,Network,"A user or service accessed the computer over the network (e.g., accessing a shared folder). Credentials are not logged on the local machine. (SMB, RDP)"
+4,Batch,"Used for scheduled tasks. The Task Scheduler logs on the account when a job runs."
+5,Service,"A service started using a service account's credentials."
+7,Unlock,"A user unlocked the workstation (e.g., session was locked and then unlocked) and RDP Reconnect."
+8,NetworkCleartext,"A user logged on over the network using credentials sent in cleartext (e.g., Basic Authentication)."
+9,NewCredentials,"A user used RUNAS /netonly or similar to create a logon session with alternate credentials without fully logging in."
+10,RemoteInteractive,"A user logged on using Remote Desktop or Remote Assistance (RDP session)."
+11,CachedInteractive,"A user logged on with cached domain credentials (e.g., logging into a laptop not connected to the domain)."
+12,CachedRemoteInteractive,"A remote interactive logon (e.g., RDP) using cached credentials when a domain controller is not reachable."
+13,CachedUnlock,"A workstation unlock performed using cached credentials while offline from the domain."

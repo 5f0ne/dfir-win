@@ -1,0 +1,8 @@
+Code,Value,Description
+0x06,KDC_ERR_C_PRINCIPAL_UNKNOWN,"Client not found in Kerberos database"
+0x07,KDC_ERR_S_PRINCIPAL_UNKNOWN,"Server not found in Kerberos database"
+0x128,KDC_ERR_CLIENT_REVOKED,"The user account is disabled, locked out, expired, or otherwise revoked."
+0x139,KDC_ERR_SERVICE_REVOKED,"Credentials for server have been revoked"
+0x173,KDC_ERR_KEY_EXPIRED,"Password has expired—change password to reset"
+0x184,KDC_ERR_PREAUTH_FAILED,"Incorrect password or invalid pre-authentication data."
+0x257,KDC_ERR_SKEW,"Clock skew exceeds Kerberos tolerance."

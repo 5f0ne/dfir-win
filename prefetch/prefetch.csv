@@ -1,0 +1,9 @@
+Artifact,Type,Description
+prefetch,Location,C:\Windows\prefetch
+prefetch,First Execution,Creation timestamp of .pf file
+prefetch,Last Execution,Modification timestamp of .pf file
+prefetch,Execution Amount,From Win8 on - the last 8 execution times are saved in the .pf file. With creation timestamp there are 9 execution times documented.
+prefetch,Maximum Amount,128 files on Win7 - 1024 from Win8 on. Older files are automatically deleted if 1024 is reached.
+prefetch,New .pf,If a .pf is deleted - a new .pf file is generated with a new creation timestamp
+prefetch,Creation != Success,Creation of a .pf does not imply successful execution 
+prefetch,.pf with same name,Indicator for the same program running from different paths

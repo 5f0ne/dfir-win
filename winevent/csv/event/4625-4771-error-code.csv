@@ -1,0 +1,11 @@
+Code,Description
+0xC0000064,"User does not exist"
+0xC000006A,"User name correct but password wrong"
+0xC000006F,"Logon time restriction for account"
+0xC0000070,"Workstation restriction for account"
+0xC0000071,"Password expired"
+0xC0000072,"Account disabled"
+0xC0000193,"Account expired"
+0xC0000224,"User must change password at next logon"
+0xC0000225,"Unknown error (Windows quirk)"
+0xC0000234,"Account locked out"
